@@ -54,7 +54,7 @@ const Home = () => {
       className={`m-1 rounded-lg transition-colors duration-500 sm:p-4 ${
         selectedMood
           ? `bg-mood-${selectedMood} bg-opacity-20 dark:bg-opacity-10`
-          : "bg-gray-50 dark:bg-gray-900"
+          : "bg-gray-50 dark:bg-gray-800"
       })}`}
     >
       <div className="mx-auto max-w-4xl">
