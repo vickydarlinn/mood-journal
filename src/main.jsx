@@ -4,13 +4,16 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "./components/ThemeProvider.jsx";
+import { ToastProvider } from "./components/common/Toast.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <ThemeProvider>
-        <App />
-      </ThemeProvider>
+      <ToastProvider>
+        <ThemeProvider>
+          <App />
+        </ThemeProvider>
+      </ToastProvider>
     </BrowserRouter>
   </StrictMode>,
 );
