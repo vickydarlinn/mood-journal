@@ -1,7 +1,8 @@
 import React from "react";
+import AppRoutes from "./routes/AppRoute";
 
 const App = () => {
-  return <div className="text-6xl">Hello apiwiz</div>;
+  return <AppRoutes />;
 };
 
 export default App;
