@@ -1,10 +1,10 @@
-import { Smile, Frown, Meh, Sun } from "lucide-react";
+import { Smile, Frown, Meh, Laugh, Angry } from "lucide-react";
 
 const moods = [
-  { type: "happy", icon: Smile, label: "Happy" },
+  { type: "happy", icon: Laugh, label: "Happy" },
   { type: "sad", icon: Frown, label: "Sad" },
-  { type: "angry", icon: Frown, label: "Angry" },
-  { type: "calm", icon: Sun, label: "Calm" },
+  { type: "angry", icon: Angry, label: "Angry" },
+  { type: "calm", icon: Smile, label: "Calm" },
   { type: "neutral", icon: Meh, label: "Neutral" },
 ];
 
