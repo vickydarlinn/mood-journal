@@ -72,7 +72,7 @@ const Statistics = () => {
     Object.entries(moodCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || "None";
 
   return (
-    <div className="space-y-6">
+    <div className="m-1 space-y-6">
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <h1 className="text-3xl font-bold">Mood Statistics</h1>
         <select

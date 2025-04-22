@@ -51,15 +51,17 @@ const Home = () => {
 
   return (
     <div
-      className={`rounded-lg p-4 transition-colors duration-500 ${
+      className={`m-1 rounded-lg transition-colors duration-500 sm:p-4 ${
         selectedMood
           ? `bg-mood-${selectedMood} bg-opacity-20 dark:bg-opacity-10`
           : "bg-gray-50 dark:bg-gray-900"
       })}`}
     >
       <div className="mx-auto max-w-4xl">
-        <Card className="mb-6 flex flex-col items-start justify-between md:flex-row md:items-center">
-          <CardContent className="text-3xl font-bold">Today's Mood</CardContent>
+        <Card className="mb-6 flex flex-col items-start justify-between border-none !shadow-none md:flex-row md:items-center">
+          <CardContent className="!p-0 text-3xl font-bold">
+            Today's Mood
+          </CardContent>
           <Link
             to="/statistics"
             className="text-muted-foreground hover:text-foreground mt-2 flex items-center gap-2 text-sm transition-colors md:mt-0"

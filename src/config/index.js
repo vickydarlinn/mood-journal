@@ -1,6 +1,7 @@
-import { Calendar, Home } from "lucide-react";
+import { Calendar, ChartLine, Home, SettingsIcon } from "lucide-react";
 
 export const navItems = [
-  { to: "/", label: "Home", icon: Home },
-  { to: "/calendar", label: "Calendar", icon: Calendar },
+  { to: "/", label: "Journal", icon: Calendar },
+  { to: "/statistics", label: "Statistics", icon: ChartLine },
+  { to: "/settings", label: "Settings", icon: SettingsIcon },
 ];

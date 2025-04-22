@@ -31,7 +31,7 @@ export const CardDescription = ({ className = "", children, ...props }) => (
 );
 
 export const CardContent = ({ className = "", children, ...props }) => (
-  <div className={`p-6 pt-0 ${className}`} {...props}>
+  <div className={`p-2 pt-0 sm:p-6 ${className}`} {...props}>
     {children}
   </div>
 );
